@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a193002f-0873-46f1-9b84-4ac1ffe2cfac" name="Changes" comment="первый коммит">
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
+    <list default="true" id="a193002f-0873-46f1-9b84-4ac1ffe2cfac" name="Changes" comment="дз">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest.shouldCorrectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="shouldCorrectUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.shouldIncorrectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="shouldIncorrectUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Testing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testing.TestingApplication" />
@@ -84,6 +103,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.UserTest.shouldIncorrectUser" />
+        <item itemvalue="JUnit.UserTest.shouldCorrectUser" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678461835661</updated>
-      <workItem from="1678461837584" duration="19703000" />
+      <workItem from="1678461837584" duration="26393000" />
     </task>
     <task id="LOCAL-00001" summary="первый коммит">
       <created>1678475906334</created>
@@ -104,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678475906334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="дз">
+      <created>1678792734758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678792734758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,9 +151,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="первый коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="первый коммит" />
+    <MESSAGE value="дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Testing$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1678792496956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Testing$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1678792641527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

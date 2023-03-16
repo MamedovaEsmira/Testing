@@ -3,21 +3,22 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class UserTest {
-    private final static String LOGIN = "Alex";
-    private final static String EMAIL = "alex@gmail.com";
-    private final static String INCORRECT_EMAIL = "alex@mailru";
-    private final static String MATCHER_MAIL = ("\\w+@\\w+\\.\\w+");
+    private  static final String LOGIN = "Alex";
+    private  static final String EMAIL = "alex@gmail.com";
+    private  static final String INCORRECT_EMAIL = "alex@mailru";
+    private  static final String MATCHER_MAIL = ("\\w+@\\w+\\.\\w+");
 
     @Test
-    void shouldCorrectUser() {
+    void shouldEqualsUser() {
         User user= new User(LOGIN, EMAIL);
-        Assertions.assertFalse(user.getLogin().isEmpty());
+        Assertions.assertEquals(LOGIN,user.getLogin());
+        Assertions.assertEquals(EMAIL,user.getEmail());
     }
-
     @Test
     void shouldIncorrectUser() {
-        User user= new User("","");
-        Assertions.assertTrue(user.getLogin().isEmpty());
+        User user= new User(" "," ");
+        Assertions.assertFalse(user.getLogin().isEmpty());
+        Assertions.assertFalse(user.getEmail().isEmpty());
     }
 
     @Test
